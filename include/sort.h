@@ -33,9 +33,7 @@ extern "C" {
 
 #include "ansidecl.h"
 
-/* Sort an array of pointers.  */
-
-extern void sort_pointers (size_t, void **, void **);
+extern void sort_pointers (size_t, void **, void **); //sort an array of pointers
 
 #ifdef __cplusplus
 }
